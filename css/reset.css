@@ -1,0 +1,30 @@
+/* 
+    Author: Brandon Perez
+    Date: 08/16/2024
+    File: reset.css
+*/
+
+/* This stylesheet should be referenced in each of your pages and should remove all browser styles that are normally applied to a page. */
+
+* {
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}

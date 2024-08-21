@@ -1,0 +1,38 @@
+/* 
+    Author: Brandon Perez
+    Date: 08/16/2024
+    File: hours.css
+*/
+table,
+tr,
+td {
+  border: solid 1px;
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: #c1c1d6;
+}
+
+td:first-child {
+  /* display: inline; */
+  /* display: inline-block; */
+  /* display: block; */
+  padding-right: 15px;
+  /* background-color: red; */
+  min-width: 65px;
+}
+
+tr:nth-child(odd) {
+  background-color: white;
+}
+
+th {
+  background-color: #19002f;
+  color: white;
+}
+
+main > p {
+  color: #5839ba;
+  padding: 15px;
+}
